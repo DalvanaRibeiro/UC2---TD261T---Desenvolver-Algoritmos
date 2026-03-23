@@ -1,7 +1,11 @@
-# Variáveis em JavaScript
+# Variáveis em JavaScript 📦🗃
 
 Profª Dalvana Ribeiro
+
 Link da aula: https://www.canva.com/design/DAGrZ23SiAQ/pXLEOrexrUeoWhvrgqYOBA/edit?utm_content=DAGrZ23SiAQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
+---
 
 ## 💬 Como nos comunicamos?
 
