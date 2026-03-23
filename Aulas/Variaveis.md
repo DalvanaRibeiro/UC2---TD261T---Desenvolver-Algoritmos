@@ -15,7 +15,7 @@ Nós usamos linguagem para nos comunicar:
 - Hello 🇺🇸
 - Hola 🇪🇸
 
-## Mas… e com o computador?
+ Mas… e com o computador?
 
 ## 💻 Linguagens de Programação
 
