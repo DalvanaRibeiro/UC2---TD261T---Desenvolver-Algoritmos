@@ -75,3 +75,89 @@ git pull origin main
 ```
 git merge master
 ```
+
+
+
+
+
+Objetivo
+
+- Ficar só com a branch main
+- Trazer tudo da master para a main
+- Evitar perder código
+
+
+## PASSO A PASSO
+### 1. Verificar estado atual
+```
+git branch
+```
+E veja onde você está.
+
+### 2. Atualizar tudo do remoto
+```
+git fetch origin
+```
+### 3. Ir para a main
+```
+git checkout main
+```
+### 4. Garantir que main está atualizada
+```
+git pull origin main
+```
+### 5. Trazer a master para dentro da main (merge)
+```
+git merge master
+```
+
+♾️ Isso junta o conteúdo da master dentro da main.
+
+⚠️ Se aparecer conflito
+
+### Depois do merge:
+```
+git status
+```
+Abra os arquivos conflitantes no VS Code, resolva manualmente.
+
+Depois:
+```
+git add .
+```
+```
+git commit -m "Resolvendo conflitos entre main e master"
+```
+### 6. Conferir se está tudo certo
+```
+git log --oneline --graph --all
+```
+### 7. Subir a main atualizada para o GitHub
+```
+git push origin main
+```
+### 8. (OPCIONAL MAS RECOMENDADO) Apagar a master
+Apagar local:
+```
+git branch -d master
+```
+Apagar no GitHub:
+```
+git push origin --delete master
+```
+
+🤌 Dica importante (de professor mesmo)
+
+Antes de apagar a master, sempre garanta:
+```
+git log --oneline --graph --all
+```
+Pra ver se tudo realmente foi integrado.
+
+
+-----
+
+<img width="333" height="333" alt="image" src="https://github.com/user-attachments/assets/81cc7675-4ed5-47f4-ba0c-0b94466b2057" />
+
+
+
