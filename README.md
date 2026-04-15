@@ -146,7 +146,7 @@ Apagar no GitHub:
 git push origin --delete master
 ```
 
-🤌 Dica importante (de professor mesmo)
+🤌 Dica importante 
 
 Antes de apagar a master, sempre garanta:
 ```
