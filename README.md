@@ -53,7 +53,7 @@ ou
 git push origin main
 ```
 -----
-## Tenho duas branches main e master e agora? 
+## Tenho duas branches main e master e agora? 🥹😭
 
 
 Unificar branches main e master e subir para GitHub
