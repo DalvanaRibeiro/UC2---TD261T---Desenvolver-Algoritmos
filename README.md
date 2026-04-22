@@ -31,7 +31,10 @@ Aqui, vamos explorar :
 
 ## Passo a passo rápido
 
-
+## 0. criar o gitignore (para ignorar arquivos grandes com o node_modules)
+````
+echo node_modules > .gitignore
+```` 
  ### 1. Adicionar novas alterações - no terminal Bash
 ```
 git add .
